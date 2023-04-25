@@ -4,14 +4,18 @@ scalesCheckbox.addEventListener('click', clickCheckbox1);
 const hornsCheckbox = document.getElementById('horns');
 hornsCheckbox.addEventListener('click', clickCheckbox2);
 
+const myBody = document.getElementById('my-background');
+
 
 function clickCheckbox1() {
-    console.log('element clicked 1');
+    myBody.style.backgroundColor = 'red'
 }
 
 function clickCheckbox2() {
-    console.log('element clicked 2');
+    myBody.style.backgroundColor = 'blue'
+
 }
+
 
 
 
