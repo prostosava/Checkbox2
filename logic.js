@@ -10,17 +10,15 @@ const myBody = document.getElementById('my-background');
 function clickCheckbox1() {
     if(scalesCheckbox.checked){
          myBody.style.backgroundColor = 'red'
-    } 
-    
-    
-    if(hornsCheckbox.checked){
-         myBody.style.backgroundColor = 'blue'
+    } else{
+        myBody.style.backgroundColor = 'blue'
     } 
     
     if (!scalesCheckbox.checked && !hornsCheckbox.checked){
          myBody.style.backgroundColor = 'green'  
     }
 }
+
 
 
 
